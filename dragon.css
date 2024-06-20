@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #7a4a0f;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+    box-shadow: 0 4px 2px -2px gray;
+}
+
+main {
+    padding: 2em;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+main > section {
+    margin: 2em 0;
+    padding: 1.5em;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.introduction {
+    background-color: #8d8d8d;
+}
+
+.journey {
+    background-color: #afd8b5;
+}
+
+.journey ul {
+    padding-left: 1.5em;
+}
+
+.journey ul li {
+    color: #333;
+    margin: 0.5em 0;
+    list-style: disc;
+}
+
+.dragon-encounter img {
+    display: block;
+    margin: 1em auto;
+    max-width: 100%;
+    height: auto;
+}
+
+footer {
+    background-color: #6b0606;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+h2 {
+    color: black;
+}
+
+section:hover {
+    border-color: #6b6b6b;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
